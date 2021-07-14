@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Screen Recording</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <button id="start">
+        Start Recording
+    </button>
+    <button id="stop" disabled>
+        Stop Recording
+    </button>
+    <button id="download" disabled>
+        Download
+    </button>
+    </br>
+    Resolutions:
+    <select id="resolutions">
+        <option value="default">Default</option>
+        <option value="fit-screen">Fit Screen</option>
+        <option>4K</option>
+        <option>1080p</option>
+        <option selected >720p</option>
+        <option>480p</option>
+        <option>360p</option>
+    </select>
+    &nbsp;&nbsp;
+    Frame Rate:
+    <select id="frameRate">
+        <option value="default">Default</option>
+        <option>30</option>
+        <option>25</option>
+        <option selected>15</option>
+        <option>5</option>
+    </select>
+    &nbsp;&nbsp;
+    <label for="desktopAudio">Capture Audio from Desktop</label>
+    <input type="checkbox" id="desktopAudio" />
+    &nbsp;&nbsp;
+    <label for="micAudio">Capture Audio from Microphone</label>
+    <input type="checkbox" id="micAudio" />
+
+    </br>
+    </br>
+    <!-- <video id="recording" controls></video> -->
+    </br>
+    <video id="finalVideo" controls ></video>
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>

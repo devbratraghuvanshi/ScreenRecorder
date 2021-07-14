@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 20px;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  video {
+    border: 1px solid lightgray;
+    width: 50%;
+    background-color: #eee;
+  }
+  
