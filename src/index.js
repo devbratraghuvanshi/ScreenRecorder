@@ -31,7 +31,7 @@ async function startRecording() {
     video.controls = false;
     video.play();
 
-    recorder = new MediaRecorder(stream, { mimeType: 'video/webm; codecs=vp8,opus' });
+    recorder = new MediaRecorder(stream, { mimeType: 'video/webm; codecs=h264,opus' });
     const chunks = [];
     recorder.ondataavailable = (e) => chunks.push(e.data);
     recorder.onstop = (e) => {
