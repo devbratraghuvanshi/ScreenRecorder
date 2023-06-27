@@ -3,3 +3,4 @@ This is a simple web based screen recorder. recorded data is not saved on any se
 
 Demo URL
 https://devbratraghuvanshi.github.io/ScreenRecorder/
+
